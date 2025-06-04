@@ -91,9 +91,10 @@ The trained generator can upscale LR images to HR with fine details and realism,
 
 To run the full pipeline, the following hardware specifications are recommended:
 
-Model	Resolution  (H×W×Frames) 	   GPU Peak Memory
-HunyuanVideo	    720×1280×129	        60 GB
-HunyuanVideo	    544×960×129	          45 GB
+| Model         | Resolution (H × W × Frames) | GPU Peak Memory |
+|---------------|-----------------------------|------------------|
+| HunyuanVideo  | 720 × 1280 × 129            | 60 GB            |
+| HunyuanVideo  | 544 × 960 × 129             | 45 GB            |
 
 Note: A minimum of NVIDIA RTX 6000 GPU with 50GB memory is recommended.
 
