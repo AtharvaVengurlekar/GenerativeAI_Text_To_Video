@@ -101,6 +101,11 @@ Note: A minimum of NVIDIA RTX 6000 GPU with 50GB memory is recommended.
 # Sample Prompt and Output
 Prompt: "Create a 6-second cinematic video clip featuring a stylish human figure. The person should be wearing modern, luxurious sunglasses (reflective lenses, metallic frames) and exhibit an extravagant, fashionable dress sense: think designer clothes with bold patterns, layered textures, and accessorized with jewelry like rings, bracelets, and a sleek watch. The clothing should blend streetwear and high-fashion styles, like a bright patterned blazer, tailored pants, and exclusive sneakers or leather shoes. The human should have a confident walking posture or a slow-motion head turn, showing off the sunglasses prominently. The scene should have excellent lighting that highlights clothing details and lens reflections, with a high-definition urban or upscale city background. Focus heavily on realistic skin textures, fabric movement, light glinting off accessories, and natural hair flow (if visible). Overall tone: chic, modern, luxurious."
 
-Generated Video: View Sample:
+Generated Video:
 https://github.com/user-attachments/assets/d1c94a1a-2861-45d2-a977-f432470e6296
+
+prompt: "Create a short video in the style of a fresh, USA-style film photo. The scene features a young American woman standing casually on a quiet urban street during golden hour. She is holding a coffee cup in one hand and wearing a textured green crossbody bag from Victoria's Secret. Her outfit includes a loose grey sweater, and her natural, flowing hair catches the soft light. She has a gentle smile and her eyes look sideways at the camera, conveying a peaceful, candid mood. The background shows softly blurred buildings and street elements, bathed in the warm, natural sunlight of a setting sun. The composition should be a mid-range, half-length portrait with soft, cinematic light and subtle shadows that enhance the calm, serene atmosphere. The camera angle should feel natural and slightly handheld, evoking a film-like, authentic moment."
+
+Generated Video:
+
 
