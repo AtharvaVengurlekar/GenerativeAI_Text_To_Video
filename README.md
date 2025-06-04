@@ -85,5 +85,5 @@ Final Output: Super-Resolved Image
 The trained generator can upscale LR images to HR with fine details and realism, suitable for use in photography, video enhancement, and restoration tasks.
 
 ## model network architecture 
-<img width="1415" alt="Image" src="https://github.com/user-attachments/assets/bfe613e8-9426-457c-8430-4ab50907815e" />
+
 
