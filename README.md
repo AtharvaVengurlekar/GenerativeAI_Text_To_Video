@@ -109,4 +109,7 @@ prompt: "Create a short video in the style of a fresh, USA-style film photo. The
 Generated Video: 
 https://github.com/user-attachments/assets/87f54fd1-c217-49c7-94a0-6b82243306da
 
+# Setup Instructions
+
+Clone the Repository:
 
