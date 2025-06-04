@@ -93,8 +93,8 @@ To run the full pipeline, the following hardware specifications are recommended:
 
 | Model         | Resolution (H × W × Frames) | GPU Peak Memory |
 |---------------|-----------------------------|------------------|
-| HunyuanVideo  | 720 × 1280 × 129            | 60 GB            |
-| HunyuanVideo  | 544 × 960 × 129             | 45 GB            |
+| HunyuanVideo  | 720 × 1280 × 129            |     60 GB        |
+| HunyuanVideo  | 544 × 960 × 129             |     45 GB        |
 
 Note: A minimum of NVIDIA RTX 6000 GPU with 50GB memory is recommended.
 
@@ -111,5 +111,20 @@ https://github.com/user-attachments/assets/87f54fd1-c217-49c7-94a0-6b82243306da
 
 # Setup Instructions
 
-Clone the Repository:
-
+Step 1: Clone the Repository:
+```bash
+git clone https://github.com/AtharvaVengurlekar/GenerativeAI_Text_To_Video.git
+cd GenerativeAI_Text_To_Video
+```
+Step 2: Create a Conda Environment:
+```bash
+conda create -n text2video python=3.10.6
+conda activate text2video
+```
+Step 3: Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+Step 4 : Download Model Files:
+Download it from the following link and place it in the root directory of the project.
+https://drive.google.com/drive/folders/17lx2X-I6f9V088VdTuys_Vzz7N9ipWLN?usp=sharing
