@@ -35,6 +35,9 @@ The Hunyuan 3DVAE Decoder reconstructs high-quality video frames from the denois
 ## ESRGAN : Enhanced Super-Resolution Generative Adversarial Networks
 ESRGAN is designed to convert low-resolution (LR) images into high-resolution (HR) images with photorealistic detail.
 
+## model network architecture 
+![Image](https://github.com/user-attachments/assets/937983ff-c76a-40b3-b0ea-5272251420a7)
+
 ### 1. Generator Network
   - Takes a low-resolution image as input.
 
@@ -68,9 +71,6 @@ ESRGAN is designed to convert low-resolution (LR) images into high-resolution (H
 ### 6. Output
 
   - Produces high-resolution, photorealistic images from low-resolution inputs — ideal for video enhancement and image restoration.
-
-## model network architecture 
-![Image](https://github.com/user-attachments/assets/937983ff-c76a-40b3-b0ea-5272251420a7)
 
 # Hardware Requirements
 
