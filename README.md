@@ -128,3 +128,8 @@ pip install -r requirements.txt
 Step 4 : Download Model Files:
 Download it from the following link and place it in the root directory of the project.
 https://drive.google.com/drive/folders/17lx2X-I6f9V088VdTuys_Vzz7N9ipWLN?usp=sharing
+
+OR Run this script:
+```bash
+download.py
+```
