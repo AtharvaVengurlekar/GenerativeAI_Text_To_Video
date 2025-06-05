@@ -241,3 +241,27 @@ curl --location 'https://your-domain.com/history' \
 }'
 ```
 Replace https://your-domain.com with your actual hosted URL.
+
+##  How to Host the API
+To make your API publicly accessible, follow these steps:
+
+1) Use a Cloud VM Provider
+Host the Flask app on services like:
+
+- AWS EC2
+
+- DigitalOcean Droplet
+
+- Render.com
+
+- Railway.app
+
+2) Expose Your Flask App
+Use gunicorn + nginx or platforms like:
+
+- Railway
+
+- Render
+
+3) Enable HTTPS
+Use Let's Encrypt with Nginx or enable auto-SSL if using Render/Railway.
