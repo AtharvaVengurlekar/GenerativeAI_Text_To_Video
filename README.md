@@ -186,7 +186,7 @@ Use the region where your S3 bucket is located (e.g., ap-south-1 for Mumbai).
 - MONGODB_URI : 
 Create a free cluster on MongoDB Atlas, then click Connect > Drivers > Copy Connection String and paste it here.
 
-# 📡 API Usage via cURL
+# API Usage via cURL
 Once the server is running, you can interact with it using the following cURL commands:
 
 1) Generate a Video
