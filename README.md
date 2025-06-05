@@ -81,7 +81,7 @@ To run the full pipeline, the following hardware specifications are recommended:
 | HunyuanVideo  | 720 × 1280 × 129            |     60 GB        |
 | HunyuanVideo  | 544 × 960 × 129             |     45 GB        |
 
-Note: A minimum of NVIDIA RTX 6000 GPU with 50GB memory is recommended.
+Note: A minimum of NVIDIA RTX 6000 GPU with 50GB VRAM memory is recommended.
 
 # Sample Prompt and Output
 Prompt: "Create a 6-second cinematic video clip featuring a stylish human figure. The person should be wearing modern, luxurious sunglasses (reflective lenses, metallic frames) and exhibit an extravagant, fashionable dress sense: think designer clothes with bold patterns, layered textures, and accessorized with jewelry like rings, bracelets, and a sleek watch. The clothing should blend streetwear and high-fashion styles, like a bright patterned blazer, tailored pants, and exclusive sneakers or leather shoes. The human should have a confident walking posture or a slow-motion head turn, showing off the sunglasses prominently. The scene should have excellent lighting that highlights clothing details and lens reflections, with a high-definition urban or upscale city background. Focus heavily on realistic skin textures, fabric movement, light glinting off accessories, and natural hair flow (if visible). Overall tone: chic, modern, luxurious."
