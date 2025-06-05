@@ -201,3 +201,43 @@ Use the region where your S3 bucket is located (e.g., ap-south-1 for Mumbai).
 - MONGODB_URI : 
 Create a free cluster on MongoDB Atlas, then click Connect > Drivers > Copy Connection String and paste it here.
 
+# 📡 API Usage via cURL
+Once the server is running, you can interact with it using the following cURL commands:
+
+1) Generate a Video
+```bash
+curl --location 'https://your-domain.com/generate_video' \
+--header 'Content-Type: application/json' \
+--data '{
+  "prompt": "A man sitting at a coffee shop, drinking coffee",
+  "width": 960,
+  "height": 544,
+  "session_id": "15"
+}'
+```
+2) Get Status of a Request
+```bash
+curl --location 'https://your-domain.com/get_status' \
+--header 'Content-Type: application/json' \
+--data '{
+  "session_id": "15",
+  "reference_id": "your_reference_id"
+}'
+```
+3) Download the Generated Video
+```bash
+curl --location 'https://your-domain.com/download_video/your_reference_id' \
+--header 'Content-Type: application/json' \
+--data '{
+  "session_id": "15"
+}'
+```
+4) View Generation History
+```bash
+curl --location 'https://your-domain.com/history' \
+--header 'Content-Type: application/json' \
+--data '{
+  "session_id": "15"
+}'
+```
+Replace https://your-domain.com with your actual hosted URL.
