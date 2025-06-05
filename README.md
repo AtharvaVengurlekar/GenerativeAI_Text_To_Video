@@ -54,6 +54,8 @@ ESRGAN is designed to convert low-resolution (LR) images into high-resolution (H
 3.  Discriminator
   - A PatchGAN-style discriminator analyzes image patches to distinguish real vs. generated images.
 
+  - Encourages sharper, more realistic textures.
+
 4. Perceptual Loss (VGG Feature Loss)
   - Utilizes VGG-based feature loss instead of just pixel-wise errors.
 
