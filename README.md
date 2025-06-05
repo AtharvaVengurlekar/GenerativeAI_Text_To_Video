@@ -143,10 +143,10 @@ To test the basic functionality of the HunyuanVideo model (without Real-ESRGAN u
 python test.py
 ```
 
-Input: A text prompt
+- **Input: A text prompt
 
-Output: A generated video saved in the main directory
+- **Output: A generated video saved in the main directory
 
-Real-ESRGAN is not used in this test
+- **Real-ESRGAN is not used in this test
 
-🛠Use this script to validate the core text-to-video pipeline
+- **Use this script to validate the core text-to-video pipeline
