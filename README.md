@@ -36,42 +36,36 @@ The Hunyuan 3DVAE Decoder reconstructs high-quality video frames from the denois
 ESRGAN is designed to convert low-resolution (LR) images into high-resolution (HR) images with photorealistic detail.
 
 1. Generator Network
-- Takes a low-resolution image as input.
+  - Takes a low-resolution image as input.
 
-- Uses a deep ResNet-based architecture built with Residual-in-Residual Dense Blocks (RRDBs) for efficient feature extraction.
+  - Uses a deep ResNet-based architecture built with Residual-in-Residual Dense Blocks (RRDBs) for efficient feature extraction.
 
-- Each RRDB uses:
+  - Each RRDB uses:
 
-   - Dense connections (for feature reuse)
+    - Dense connections (for feature reuse)
 
-   - Residual connections (for stability)
+    - Residual connections (for stability)
 
-   - No Batch Normalization (to preserve range)
+    - No Batch Normalization (to preserve range)
 
 2. Upsampling
-Pixel-shuffle layers upscale the image (e.g., 2x or 4x).
+  - Pixel-shuffle layers upscale the image (e.g., 2x or 4x).
 
 3.  Discriminator
-A PatchGAN-style discriminator analyzes image patches to distinguish real vs. generated images.
+  - A PatchGAN-style discriminator analyzes image patches to distinguish real vs. generated images.
 
 4. Perceptual Loss (VGG Feature Loss)
- - Utilizes VGG-based feature loss instead of just pixel-wise errors.
+  - Utilizes VGG-based feature loss instead of just pixel-wise errors.
 
- - Enhances texture quality and perceptual similarity to the ground truth.
-
-Features are extracted from intermediate layers of VGG
-
-Ensures the generated image is perceptually close to the ground truth
-
-Leads to better texture and visual fidelity
+  - Enhances texture quality and perceptual similarity to the ground truth.
 
 5. Training Objective (Adversarial + Content + Perceptual Loss)
 
- - Combines content loss (MSE/L1), perceptual loss, and adversarial loss for optimal results.
+  - Combines content loss (MSE/L1), perceptual loss, and adversarial loss for optimal results.
  
 6. Output
 
- - Produces high-resolution, photorealistic images from low-resolution inputs — ideal for video enhancement and image restoration.
+  - Produces high-resolution, photorealistic images from low-resolution inputs — ideal for video enhancement and image restoration.
 
 ## model network architecture 
 ![Image](https://github.com/user-attachments/assets/937983ff-c76a-40b3-b0ea-5272251420a7)
