@@ -133,3 +133,20 @@ OR Run this script:
 ```bash
 download.py
 ```
+
+# Testing the Pipeline
+
+1️) Basic HunyuanVideo Test (Text ➝ Video Only)
+To test the basic functionality of the HunyuanVideo model (without Real-ESRGAN upscaling), run:
+
+```bash
+python test.py
+```
+
+Input: A text prompt
+
+Output: A generated video saved in the main directory
+
+Real-ESRGAN is not used in this test
+
+🛠Use this script to validate the core text-to-video pipeline
