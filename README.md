@@ -151,6 +151,7 @@ python test.py
 
 - Use this script to validate the core text-to-video pipeline
 
+
 2) Full Pipeline Test with ESRGAN (Text ➝ High-Res Video)
 To generate high-resolution 4K videos, including Real-ESRGAN upscaling, run:
 
