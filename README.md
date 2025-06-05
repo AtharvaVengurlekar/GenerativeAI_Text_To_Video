@@ -150,3 +150,18 @@ python test.py
 - Real-ESRGAN is not used in this test
 
 - Use this script to validate the core text-to-video pipeline
+
+2) Full Pipeline Test with ESRGAN (Text ➝ High-Res Video)
+To generate high-resolution 4K videos, including Real-ESRGAN upscaling, run:
+
+```bash
+python finalpipeline.py
+```
+
+- Generate video using HunyuanVideo
+
+- Enhance and upscale it using Real-ESRGAN
+
+- Output: A high-quality upscaled video saved in the main directory
+
+Make sure RealESRGAN_x4plus.pth is placed in the root directory
