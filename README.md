@@ -187,3 +187,17 @@ BUCKET_NAME=your-s3-bucket-name
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority
 CUDA_DEVICE_ID=0
 ```
+
+## How to Get These Credentials
+- AWS_ACCESS_KEY & AWS_SECRET_KEY
+Go to the AWS IAM Console, create a user with programmatic access, and assign S3 full access permissions. Copy the access and secret keys.
+
+- BUCKET_NAME
+Go to the AWS S3 Console, create a new bucket, and use its name here.
+
+- REGION_NAME
+Use the region where your S3 bucket is located (e.g., ap-south-1 for Mumbai).
+
+- MONGODB_URI
+Create a free cluster on MongoDB Atlas, then click Connect > Drivers > Copy Connection String and paste it here.
+
