@@ -12,26 +12,25 @@ HunyuanVideo is a 13B parameter diffusion transformer model designed to be compe
 <img width="1415" alt="Image" src="https://github.com/user-attachments/assets/737762ed-d241-4f98-95a8-e9d0bf6d04e7" />
 
 1. Text Prompt Input
-A user provides a natural language prompt that describes the desired video scene.
-_Example: "Sunny day, freedom and adventure, high motion. A man with a beard riding a motorcycle on the street."_
+Users provide a natural language prompt (e.g., "Sunny day, adventure, man on a motorcycle").
 
 2. Text Embedding with Large Language Model (LLM)
-The text prompt is encoded into a sequence of text tokens using a large multimodal language model (LLM). These tokens capture semantic meaning and temporal cues.
+A large multimodal language model (LLM) encodes the prompt into text tokens capturing semantic and temporal information.
 
-3. Video Compression (Training Phase Only)
-During training, ground-truth videos are encoded into a compact latent space using a Hunyuan Causal 3D Variational Autoencoder (3DVAE) encoder. This compresses the high-dimensional video data into manageable latent representations.
+3. Video Encoding (Training Only)
+Ground-truth videos are compressed into latent representations using the Hunyuan Causal 3D VAE Encoder.
 
-4. Noise Addition (Diffusion Process)
-Gaussian noise is added to the latent video representations. This is a standard process in diffusion models, where the goal is to learn how to reverse the noise and recover the clean latent.
+4. Diffusion (Noise Injection)
+Gaussian noise is added to video latents as part of the diffusion learning process.
 
-5. Dual-Stream Transformer Input
-Both noisy latent video tokens and encoded text tokens are fed into the HunyuanVideo Diffusion Backbone, a transformer-based model. The dual-stream attention mechanism allows the model to effectively fuse spatial-temporal video features with text semantics.
+5.  Fusion via Transformer
+Noisy video tokens and text tokens are fused using a dual-stream to single-stream transformer (HunyuanVideo Backbone).
 
-6. Latent Video Output (Denoising)
-The diffusion model denoises the input tokens step-by-step, generating a refined latent video representation conditioned on the text prompt.
+6. Denoising
+The model denoises the latent video step-by-step, guided by the input prompt.
 
-7. Final Video Generation
-The denoised latent video is decoded back into high-resolution video frames using the Hunyuan Causal 3DVAE Decoder, completing the text-to-video generation pipeline.
+7.  Final Video Generation
+The Hunyuan 3DVAE Decoder reconstructs high-quality video frames from the denoised latents.
 
 ## ESRGAN : Enhanced Super-Resolution Generative Adversarial Networks
 
