@@ -246,22 +246,22 @@ Replace https://your-domain.com with your actual hosted URL.
 To make your API publicly accessible, follow these steps:
 
 1) Use a Cloud VM Provider
-Host the Flask app on services like:
+ Host the Flask app on services like:
 
-- AWS EC2
+ - AWS EC2
 
-- DigitalOcean Droplet
+ - DigitalOcean Droplet
 
-- Render.com
+ - Render.com
 
-- Railway.app
+ - Railway.app
 
 2) Expose Your Flask App
-Use gunicorn + nginx or platforms like:
+ Use gunicorn + nginx or platforms like:
 
-- Railway
+ - Railway
 
-- Render
+ - Render
 
 3) Enable HTTPS
-Use Let's Encrypt with Nginx or enable auto-SSL if using Render/Railway.
+ Use Let's Encrypt with Nginx or enable auto-SSL if using Render/Railway.
