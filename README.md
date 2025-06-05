@@ -60,7 +60,7 @@ The discriminator is trained adversarially to distinguish between real high-reso
 PatchGAN-style architecture:
 Focuses on texture details by analyzing image patches instead of the whole image.
 
-📍_Goal: Encourage the generator to produce more realistic textures._
+_Goal: Encourage the generator to produce more realistic textures._
 
 4. Perceptual Loss (VGG Feature Loss)
 Instead of just relying on pixel-wise losses (e.g., MSE), ESRGAN uses a pre-trained VGG19 network to compute perceptual loss.
