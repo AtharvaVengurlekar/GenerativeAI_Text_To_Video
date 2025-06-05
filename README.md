@@ -166,3 +166,24 @@ python finalpipeline.py
 - Output: A high-quality upscaled video saved in the main directory
 
 Make sure RealESRGAN_x4plus.pth is placed in the root directory
+
+3) API Access via Postman (Run Flask App)
+To expose the model as an API and test it using Postman or any other API client:
+
+```bash
+python app.py
+```
+
+##  Environment Variables & Credentials Setup
+To run the Flask API successfully (app.py), you need to configure the following credentials in a .env file in your project root.
+
+ Create a .env file
+
+```env
+AWS_ACCESS_KEY=your-aws-access-key
+AWS_SECRET_KEY=your-aws-secret-key
+REGION_NAME=your-region-name
+BUCKET_NAME=your-s3-bucket-name
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority
+CUDA_DEVICE_ID=0
+```
