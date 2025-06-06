@@ -248,5 +248,5 @@ To make your API publicly accessible, follow these steps:
 
  - Render
 
-3) Enable HTTPS
- Use Let's Encrypt with Nginx or enable auto-SSL if using Render/Railway.
+3) Enable HTTPS Use 
+ Let's Encrypt with Nginx or enable auto-SSL if using Render/Railway.
